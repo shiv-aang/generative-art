@@ -22,11 +22,11 @@ function setup() {
       fill(color(c));
       //stroke('black');
       stroke(color(c));
-      strokeWeight(random(30))
-      point(xPos*random(10), yPos*random(5),zPos);
+      strokeWeight(random(50))
+      point(xPos*random(10), yPos*random(15),zPos);
+
       strokeWeight(random(5));
       //quad(x1, y1, z1, x2, y2, z2, x3, y3, z3, x4, y4, z4, [detailX], [detailY])
-
       quad(xPos, yPos, zPos, xPos*random(3), yPos*random(5), zPos*(4), xPos*random(15), yPos*random(4), zPos*random(12), xPos*random(5), yPos, zPos);
       //triangle(x1, y1, x2, y2, x3, y3)
       //triangle(xPos,yPos, xPos*random(5), yPos*random(3), xPos*random(3), yPos*random(10));
